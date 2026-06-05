@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    font-size: 0.55px;
+}
+
 body {
     font-family: 'Noto Sans', serif;
     cursor: url('../img/cursor_sword.cur'), auto;
 }
 
-a:hover { 
+a:hover {
     cursor: url('../img/cursor_mace.cur'), auto;
 }
 
@@ -26,16 +31,16 @@ header {
     height: 82vh;
     background: url("../img/header_bg.jpg") no-repeat center right;
     background-size: cover;
-    border-bottom: 4px solid #3d3938;
+    border-bottom: 4rem solid #3d3938;
 }
 
 .header_logo {
-    width: 222px;
+    width: 222rem;
 }
 
 .header_menu {
     display: flex;
-    column-gap: 45px;
+    column-gap: 45rem;
     list-style: none;
 }
 
@@ -43,37 +48,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20rem 60rem;
     background: #262423;
-    
+
 }
 
 .header_menu a {
     font-family: 'Noto Sans', serif;
-    font-size: 12px;
+    font-size: 12rem;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    
+
 }
 
 .header_menu a:hover {
     color: #1dc812;
-    
+
 }
 
 .buy_link {
     display: block;
-    padding: 6px 12px;
+    padding: 6rem 12rem;
     background: #3C8527;
-    border: 2px solid #52A535;
+    border: 2rem solid #52A535;
     text-decoration: none;
     font-family: 'Noto Sans', serif;
-    font-size: 12px;
+    font-size: 12rem;
     font-weight: 800;
     color: #fff;
-    text-transform:  uppercase;
+    text-transform: uppercase;
 }
 
 main {
@@ -82,28 +87,28 @@ main {
 
 .buy_link:hover {
     background: #86d562;
-   
+
 }
 
 .discover_our_games {
-    padding: 48px 60px 40px;
+    padding: 48rem 60rem 40rem;
 }
 
 .div_title {
     font-family: serif;
-    font-size: 56px;
+    font-size: 56rem;
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 
 .div_description_link {
     display: block;
-    margin-bottom: 48px;
+    margin-bottom: 48rem;
     text-align: center;
     font-weight: bold;
     color: #6cc349;
-    
+
 }
 
 .game_container {
@@ -113,7 +118,7 @@ main {
 
 .div_description_link:hover {
     color: #fff;
-   
+
 }
 
 .game_container .game {
@@ -122,51 +127,63 @@ main {
 
 .game img {
     width: 100%;
-    margin-bottom: 23px;
+    margin-bottom: 23rem;
 }
 
 .game_title {
     font-family: 'Noto Sans', serif;
-    font-size: 24px; 
+    font-size: 24rem;
     color: #fff;
 }
 
 .game_description {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #aba09c;
 }
 
 .newest_news {
-    padding: 80px 72px;
+    padding: 80rem 72rem;
     background: #262423;
 }
 
 
 .newest_news .release_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 32px;
+    gap: 32rem;
 }
 
 .newest_news .div_title {
-    margin-bottom: 55px;
+    margin-bottom: 55rem;
 }
 
 .newest_news .div_description_link {
     text-decoration: none;
+    font-size: 28rem;
+}
+
+.div_description_link {
+    text-decoration: none;
+    font-size: 28rem;
 }
 
 .newest_news .div_description_link:hover {
     text-decoration: underline;
-    
+
+}
+
+.newest_news p {
+    font-size: 22rem;
+    line-height: 24rem;
+    color: #aba09c;
 }
 
 .release_container>div {
     position: relative;
-    width: 266px;
-    height: 266px;
+    width: 266rem;
+    height: 266rem;
 }
 
 .release_container>div img {
@@ -175,12 +192,13 @@ main {
 
 .release_absolut .category {
     display: inline-block;
-    font-size: 14px;
     font-family: serif;
-    padding: 0 4px 1px;
+    padding: 2rem 4rem 2rem;
     text-align: center;
-    background: #fff;
-    margin-bottom: 6px;
+    background: #ffffff;
+    margin-bottom: 6rem;
+    font-size: 32rem;
+    line-height: 32rem;
 }
 
 .release_container .release_absolut {
@@ -188,18 +206,18 @@ main {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 100rem;
     overflow: hidden;
     background: rgba(23, 22, 21, .8);
-    padding: 14px 12px;
-    backdrop-filter: blur(2px);
-    
+    padding: 14rem 12rem;
+    backdrop-filter: blur(2rem);
+
 }
 
 .release_container img:hover {
     transform: scale(1.1);
     transition: 0.8s;
-    
+
 }
 
 .release_container picture {
@@ -207,7 +225,7 @@ main {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    
+
 }
 
 .release_container img {
@@ -218,17 +236,17 @@ main {
 .release_absolut .release_description {
     font-family: serif;
     color: #fff;
-    line-height: 24px;
+    line-height: 24rem;
 }
 
 .author_content {
-    padding: 48px 60px 32px;
+    padding: 48rem 60rem 32rem;
     color: #fff;
     text-align: center;
 }
 
 .minecraft_dungeons {
-    padding: 80px;
+    padding: 80rem;
     background: #4f1030;
 }
 
@@ -236,27 +254,28 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 1200rem;
     margin: auto;
-    padding-top: 48px;
+    padding-top: 48rem;
 }
 
-.minecraft_dungeons .card img{
-    width: 300px;
-    height: 400px;
+.minecraft_dungeons .card img {
+    width: 300rem;
+    height: 400rem;
 }
 
 .minecraft_dungeons .card {
-    width: 300px;
+    width: 300rem;
     text-align: center;
+    flex: 1;
     color: #fff;
 }
 
 .minecraft_dungeons .card h3 {
-    font-size: 24px;
+    font-size: 42rem;
     font-family: serif;
-    font-weight: 400;
-    margin-bottom: 16px;
+    font-weight: 600;
+    margin-bottom: 16rem;
 }
 
 .footer {
@@ -271,24 +290,24 @@ main {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 1440px;
-    padding: 32px 24px 27px 9px;
+    max-width: 1440rem;
+    padding: 32rem 24rem 27rem 9rem;
 }
 
-.footer .wrapper ul{
+.footer .wrapper ul {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 10px;
+    gap: 15rem;
 }
 
-.footer .wrapper ul a {
-    font-size: 11.6px;
+.footer a {
+    font-size: 20rem;
     color: #f8f5f4;
     text-decoration: none;
 }
 
-.footer .wrapper ul a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
 
@@ -297,6 +316,195 @@ main {
     align-items: center;
 }
 
-.footer .wrapper>a:hover {
-    
+.author_content p {
+    font-size: 20rem;
+    line-height: 22rem;
 }
+
+.minecraft_dungeons p {
+    font-size: 24rem;
+    line-height: 28rem;
+}
+
+.header_menu {
+    display: none;
+}
+
+.header_top {
+    padding: 20rem;
+}
+
+.discover_our_games {
+    padding: 48rem 20rem 40rem;
+}
+
+.game_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40rem;
+}
+
+.newest_news {
+    padding: 80rem 20rem;
+}
+
+.release_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40rem;
+}
+
+.minecraft_dungeons .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40rem;
+}
+
+.footer .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20rem;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 0.6px;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .game_container img {
+        min-width: 600rem;
+    }
+
+    .game_container .game {
+        width: 100%;
+    }
+
+    .header_top {
+        padding: 20rem;
+    }
+
+    .discover_our_games {
+        padding: 48rem 20rem 40rem;
+    }
+
+    .game_container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40rem;
+    }
+
+    .newest_news {
+        padding: 80rem 20rem;
+    }
+
+    .release_container {
+        display: grid !important;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40rem;
+    }
+
+    .realease_container>div {
+        width: 100%;
+    }
+
+    .realease_container img {
+        min-width: 600rem !important;
+    }
+
+    .minecraft_dungeons .wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 40rem;
+    }
+
+    .footer .wrapper {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    html {
+        font-size: 0.7px;
+    }
+
+    .newest_news .release_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 32rem;
+    }
+
+    .header_menu {
+        display: flex;
+    }
+
+    .header_top {
+        padding: 20rem 60rem;
+    }
+
+    .discover_our_games {
+        padding: 48rem 60rem 40rem;
+    }
+
+    .game_container {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 32rem;
+    }
+
+    .newest_news {
+        padding: 80rem 72rem;
+    }
+
+    .release_container {
+        flex-direction: row;
+        align-items: center;
+        gap: 32rem;
+    }
+
+    .minecraft_dungeons .wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40rem;
+    }
+
+    .footer .wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 20rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 0.8px;
+    }
+}
+
+@media screen and (min-width: 2260px) {
+    html {
+        font-size: 1px;
+    }
+}
+
+
+
+
+----------
+
+
+
+
+
+
