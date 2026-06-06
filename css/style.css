@@ -350,12 +350,11 @@ main {
 }
 
 .minecraft_dungeons .card img {
-    width: 300rem;
-    height: 400rem;
+    width:100%;
 }
 
 .minecraft_dungeons .card {
-    width: 300rem;
+    max-width: 600rem;
     text-align: center;
     flex: 1;
     color: #fff;
