@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 0.55px;
+    font-size: 0.65px;
 }
 
 body {
@@ -132,13 +132,13 @@ main {
 
 .game_title {
     font-family: 'Noto Sans', serif;
-    font-size: 24rem;
+    font-size: 42rem;
     color: #fff;
 }
 
 .game_description {
-    font-size: 14rem;
-    line-height: 24rem;
+    font-size: 24rem;
+    line-height: 30rem;
     color: #aba09c;
 }
 
@@ -366,9 +366,52 @@ main {
     gap: 20rem;
 }
 
+.footer a {
+    font-size: 14rem;
+}
+
+.release_container div {
+    width: 100%;
+    height: auto;
+}
+
+.game_container img {
+    min-width: 90%;
+}
+
+.game_container .game {
+    width: 100%;
+}
+
 @media screen and (min-width: 768px) {
     html {
         font-size: 0.6px;
+    }
+
+    .release_container div {
+        width: 100%;
+        height: auto;
+    }
+
+    .release_absolut .release_description {
+        line-height: 33rem;
+        font-size: 32rem;
+    }
+
+    .release_container .release_absolut {
+        padding: 10rem 16rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 140rem;
+        overflow: hidden;
+    }
+
+    .release_absolut .category {
+        font-size: 45rem;
+        line-height: 45.5rem;
+        padding: 4rem 8rem;
     }
 
     .header_menu {
@@ -425,10 +468,26 @@ main {
     }
 
     .footer .wrapper {
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
         gap: 20rem;
+    }
+
+    .footer a {
+        font-size: 16rem;
+    }
+
+    .header_logo {
+        width: 400rem !important;
+    }
+
+    .header_logo {
+        width: 400rem !important;
+    }
+
+    .buy_link {
+        font-size: 30rem;
     }
 }
 
@@ -447,6 +506,14 @@ main {
 
     .header_menu {
         display: flex;
+    }
+
+    .header_menu a {
+        font-size: 24rem;
+    }
+
+    .footer a {
+        font-size: 22rem;
     }
 
     .header_top {
@@ -484,11 +551,123 @@ main {
         align-items: center;
         gap: 20rem;
     }
+
+    .minecraft_dungeons .card img {
+        width: 400rem !important;
+        height: 600rem !important;
+        min-height: 600rem !important;
+    }
+
+    .buy_link {
+        padding: 6rem 12rem;
+        font-size: 26rem;
+    }
+
+    .minecraft_dungeons .card h3 {
+        font-size: 52rem !important;
+    }
+
+    .minecraft_dungeons p {
+        font-size: 34rem !important;
+        line-height: 38rem !important;
+    }
+
+    .minecraft_dungeons .card {
+        width: 500rem !important;
+        text-align: center;
+        flex: 1;
+        color: #fff;
+    }
 }
 
 @media screen and (min-width: 1920px) {
     html {
         font-size: 0.8px;
+    }
+
+    .newest_news .release_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        gap: 32rem;
+    }
+
+    .buy_link {
+        padding: 6rem 12rem;
+        font-size: 24rem;
+    }
+
+    .header_menu a {
+        font-size: 20rem;
+    }
+
+    .release_container div {
+        width: 100%;
+        height: auto;
+    }
+
+    .header_menu {
+        display: flex;
+    }
+
+    .header_top {
+        padding: 20rem 60rem;
+    }
+
+    .discover_our_games {
+        padding: 48rem 60rem 40rem;
+    }
+
+    .game_container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 32rem;
+    }
+
+    .newest_news {
+        padding: 80rem 72rem;
+    }
+
+    .game_container img {
+        min-width: 300rem;
+    }
+
+    .game_container .game {
+        width: 100%;
+    }
+
+    .release_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32rem;
+    }
+
+    .minecraft_dungeons .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40rem;
+    }
+
+    .footer .wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 20rem;
+    }
+
+    .minecraft_dungeons .card img {
+        width: 400rem;
+        height: 600rem;
+        min-height: 400rem;
+    }
+
+    .minecraft_dungeons .card {
+        width: 300rem;
+        text-align: center;
+        flex: 1;
+        color: #fff;
     }
 }
 
@@ -497,14 +676,3 @@ main {
         font-size: 1px;
     }
 }
-
-
-
-
-----------
-
-
-
-
-
-
