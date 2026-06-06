@@ -28,8 +28,8 @@ button:hover {
 }
 
 header {
-    height: 82vh;
-    background: url("../img/header_bg.jpg") no-repeat center right;
+    height: 60vh;
+    background: url("../img/header_bg.jpg") no-repeat center right'30%";
     background-size: cover;
     border-bottom: 4rem solid #3d3938;
 }
