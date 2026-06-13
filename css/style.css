@@ -29,9 +29,10 @@ button:hover {
 
 header {
     height: 60vh;
-    background: url("../img/header_bg.jpg") no-repeat center right'30%";
+    background: url("../img/header_bg.jpg") no-repeat center right;
     background-size: cover;
     border-bottom: 4rem solid #3d3938;
+    padding-right: 120rem;
 }
 
 .menu {
